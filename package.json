@@ -1,0 +1,28 @@
+{
+	"name" : "function-helpers",
+	"version" : "0.0.1",
+	"description" : "wrappers / helpers for js functions (once memoise throttle)",
+	"main" : "function-helpers.js",
+	"scripts" : {
+		"test" : "mocha"
+	},
+	"repository" : {
+		"type" : "git",
+		"url" : "git://github.com/briandemant/node-function-helpers.git"
+	},
+	"keywords" : [
+		"throttle",
+		"function",
+		"helper",
+		"util"
+	],
+	"author" : "Brian Demant <brian.demant@gmail.com>",
+	"license" : "BSD",
+	"readmeFilename" : "README.md",
+	"bugs" : {
+		"url" : "https://github.com/briandemant/node-function-helpers/issues"
+	},
+	"devDependencies" : {
+		"mocha" : "~1.11.0"
+	}
+}
